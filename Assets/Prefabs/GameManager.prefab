@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4418567875690943316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399989746172084150}
+  - component: {fileID: 4341987982380219327}
+  - component: {fileID: 4741511765924881236}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &399989746172084150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418567875690943316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 3.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4341987982380219327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418567875690943316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0763fa951f2f37b4093ac8d8d78d19eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 100
+--- !u!114 &4741511765924881236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418567875690943316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d47b1e497b85bc47a1f25cbb31776db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 20
+  rows: 15
+  treeCount:
+    minimum: 8
+    maximum: 10
+  healthCount:
+    minimum: 2
+    maximum: 6
+  enemyCount:
+    minimum: 5
+    maximum: 10
+  floorTiles:
+  - {fileID: 8765152888247699358, guid: 91fe72cfcd8560d49bc7a7f4e58c65bf, type: 3}
+  - {fileID: 952086076902570228, guid: 0fe11b6c1b166bf43aec6056b1a3d07e, type: 3}
+  - {fileID: 409087206241250076, guid: 3b101299eaf0e2844beb41f57f0cb271, type: 3}
+  - {fileID: 7321374338548208320, guid: 5ebf9bdfe9da3324ab255e9d6ff29581, type: 3}
+  - {fileID: 4800554931321303077, guid: 8924a9f6c7bb6e5448cf8db587aa6ea5, type: 3}
+  - {fileID: 5947512126611403962, guid: 691e23e5c87fcf445b5950ab6b98c51a, type: 3}
+  - {fileID: 4104974929099955724, guid: 2f0f70b8057de394fab5e68755cc1a99, type: 3}
+  - {fileID: 8014917689845617113, guid: 058c160b1ad581640921a4457f7ab76d, type: 3}
+  - {fileID: 6403591040952425855, guid: a7821d9a294e2054a962ef1700cd8725, type: 3}
+  - {fileID: 4056133535555049379, guid: 0951869d54729d94b8843540053aca14, type: 3}
+  - {fileID: 8998815958659229575, guid: e5776563cf0ac3448a8408db42bcda4f, type: 3}
+  - {fileID: 8699541509542068838, guid: 659e707d75ebd1a4d9a96d93f54e3b86, type: 3}
+  - {fileID: 8234396762141219194, guid: 5c86a5f446a2deb4db9d86e1fdcc941a, type: 3}
+  roadTiles:
+  - {fileID: 3822975092079973307, guid: 47f59a8af2b06de4689379e507dc8fdb, type: 3}
+  - {fileID: 6310871699259288359, guid: e1b3947a88dce24498a8b4c262e6c24f, type: 3}
+  healthTiles:
+  - {fileID: 3057515297228151150, guid: cdaecea6f94ba5645852979018b73d85, type: 3}
+  treeTiles:
+  - {fileID: 7712359965318863139, guid: f268c3658789d044d813671e11e90e3f, type: 3}
+  - {fileID: 8657310319350417234, guid: a73092c327c50304d9864aa5fbf016da, type: 3}
+  enemyTiles:
+  - {fileID: 6999836502873323906, guid: dfb933ad3f4da844c88b1786b4474e64, type: 3}
+  - {fileID: 1000013301305156, guid: 7ac6bdc2e4b5e47468b8b460ca863a5f, type: 3}
+  - {fileID: 1000013234968400, guid: 4a6e9a7d544412d4d92db88d8587228e, type: 3}
+  - {fileID: 1000011922212602, guid: b3d1057caadaef44ab620edfef78b14f, type: 3}
+  - {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 3}
+  - {fileID: 1000011821036864, guid: 5b210609803658e488f512fc13a6163e, type: 3}
